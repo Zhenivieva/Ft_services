@@ -1,0 +1,4 @@
+CREATE DATABASE wordpress;
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+GRANT ALL ON wordpress.* TO 'root'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
